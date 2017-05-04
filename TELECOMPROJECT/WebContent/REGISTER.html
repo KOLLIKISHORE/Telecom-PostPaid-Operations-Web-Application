@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>REGISTRATION</title>
+  
+	<link rel="stylesheet" type="text/css" href="KISHORE.css"> 
+   
+  <script type="text/javascript" src="validations.js"></script>
+<style>
+body {
+  
+  background: #00CDAC;
+
+}
+
+
+
+</style>
+</head>
+
+<body>
+
+<h1 style="text-align: center;color: #999999;"> REGISTRATION</h1>
+
+<form name="Reg"  action="Register.jsp" method="POST"  >
+  <fieldset>
+    <legend  text-align : center ;>REGISTRATION</legend>
+    FIRSTNAME <span style = "color :red;"">*</span>   :&nbsp <input type="text" name="firstname" placeholder="ENTER FIRSTNAME" required><br> <br>
+    LASTNAME  <span style = "color :red;"">*</span>   :&nbsp				      <input type="text" name="lastname" placeholder="ENTER LASTNAME" required><br><br>
+    USERNAME 		<span style = "color :red;"">*</span>   :&nbsp		        <input type="text" name="username" placeholder="ENTER USERNAME" required ><br><br>
+    PASSWORD 			<span style = "color :red;"">*</span>   :&nbsp	        <input id ="password1" type="PASSWORD" name="password" placeholder="ENTER PASSWORD" required> <br><br>
+   
+  CITY   			<span style = "color :red;">*</span>   :&nbsp	          
+                     
+                       <select name="cites" class="CITY" required>
+                       <option value ="-1">SELECT YOUR CITY</option>
+                      <option value="Phoenix">Phoenix	</option>
+                      <option value="Irvine">Irvine	</option>
+                      <option value="Los Angeles">Los Angeles</option>
+                      <option value="San Diego">San Diego</option>
+                      <option value="San Jose">San Jose</option>
+                      <option value="Irvine	">Irvine</option>
+                      <option value="Chicago">Chicago</option>
+                      <option value="Boston">Boston</option>
+                      <option value="Detroit">Detroit</option>
+                      <option value="Syracuse">Syracuse</option>
+                      <option value="Columbus">Columbus</option>
+                      <option value="Austin">Austin</option>
+
+                      <option value="Sydney">Sydney</option>
+
+                      <option value="Brisbane">Brisbane</option>
+                      <option value="Melbourne">Melbourne</option>
+                      <option value="Perth">Perth</option>
+
+                      <option value="Hyderabad">Hyderabad</option>
+                      <option value="Chennai">Chennai</option>
+                      <option value="Mumbai">Mumbai</option>
+                      <option value="Banaglore">Banglore</option>
+                      <option value="Delhi">Delhi</option>
+                         
+                 </select> 
+                    <br> <br>
+
+    STATE			<span style = "color :red;"">*</span>   :&nbsp	    
+
+                       <select name="states" class="STATE" required>
+                       <option  value ="-1">SELECT YOUR STATE</option>
+                      <option value="California">California	</option>
+                      <option value="Arizona">Arizona	</option>
+                      <option value="Florida">Florida	</option>
+                      <option value="Georgia">Georgia	</option>
+                      <option value="Illinois">Illinois	</option>
+                      <option value="Massachusetts">Massachusetts	</option>
+                      <option value="Michigan">Michigan	</option>
+                      <option value="New York">New York	</option>
+                      <option value="Ohio">Ohio	</option>
+                      <option value="Pennsylvania">Pennsylvania	</option>
+                      <option value="Texas">Texas	</option>
+                      <option value="New South Wales">New South Wales	</option>
+                      <option value="Queensland">Queensland	</option>
+                      <option value="Victoria">Victoria	</option>
+                      <option value="Western Australia">Western Australia	</option>
+                      <option value="AndhraPradesh">AndhraPradesh</option>
+                      <option value="Telangana">Telangana	</option>
+                      <option value="Maharastra">Maharastra</option>
+                      <option value="Karnataka">Karnataka</option>
+                      <option value="Tamilnadu">Tamilnadu</option>
+                      <option value="WestBengal">WestBengal</option>
+                      <option value="Delhi">Delhi</option>
+
+
+                    </select> <br> <br>
+
+
+  COUNTRY         <span style = "color :red;"">*</span>   :&nbsp
+                       <select name="Countries" class="country"  required>
+                       <option value ="-1">SELECT YOUR COUNTRY</option>
+                      <option value="INDIA">INDIA </option>
+                      <option value="USA">USA</option>
+                      <option value="AUSTRALIA">AUSTRALIA</option>
+
+                      </select> <br> <br>
+
+  EMAILID    <span style = "color :red;"">*</span>   :&nbsp <input  required
+  id="MAILID" type="text" name="EMAILID" placeholder="ENTER YOUR EMAILID"  > <br> <br>
+ 
+
+
+<button type="submit"  onclick= "form_Validations()" > SIGN UP </button>
+</fieldset>
+</form>
+
+</body>
+
+</html>

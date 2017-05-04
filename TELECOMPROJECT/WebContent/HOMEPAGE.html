@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+ <link rel="stylesheet" href="css/style1.css">
+<style>
+#p {margin-bottom:10px;
+   padding:10px;border-radius: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: #5e0231;
+   
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #B94629;
+    text-align: center;
+    padding:20px;
+  
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+h1 {
+color : #CBE32D }
+
+
+
+form {
+margin-bottom:10px;
+  background: white;
+  width: 40%;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+  font-family: lato;
+  position: relative;
+  color: #333;
+  border-radius: 10px;
+}
+form header {
+  background: #FF3838;
+  padding: 30px 20px;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 600;
+  border-radius: 10px 10px 0 0;
+}
+form label {
+  margin-left: 20px;
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+form input {
+  display: block;
+  width: 78%;
+  margin-left: 20px;
+  padding: 5px 20px;
+  font-size: 1em;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+}
+form button {
+  position:    relative;
+  margin-top:  30px;
+  margin-bottom: 30px;
+  margin-left :300px;
+  left: 42px;
+  transform: translate(-50%, 0);
+  font-family: inherit;
+  color: white;
+  background: #FF3838;
+  outline: none;
+  border: none;
+  padding: 50px 15px;
+  
+  font-size: 1.3em;
+  font-weight: 400;
+  border-radius: 3px;
+  box-shadow: 0px 0px 10px rgba(51, 51, 51, 0.4);
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+
+form button:hover {
+  background: RED;
+}
+
+
+
+
+</style>
+
+
+</head>
+<body background="telecom.jpg" >
+
+<h1 align="center" > TELECOM POSTPAID SELLER </h1>
+
+<ul>
+  <li><a href="HOMEPAGE.html">HOME</a></li>
+  
+  <li><a href="HOMEPAGE.html">LOGIN</a></li> 
+   
+  <li><a href="REGISTER.html">REGISTER</a></li>
+  <li><a href="ADMINPAGE.html">ADMIN</a></li>
+  
+  <li><a href="#CONTACT US">CONTACT US</a></li>
+  
+  <li><a href="#SERVICES">SERVICES</a></li>
+  <li><a href="#ABOUT">ABOUT</a></li>
+</ul>
+
+
+<marquee behavior="scroll" direction="right">   
+<img src="AT andT.png" width="200" height="200"   scrollamount="100" alt="Image" />
+<img src="verizon2.jpg" width="200" height="200"  scrollamount="100" alt="Image"/>
+<img src="verizon.jpg" width="200"  height="200"   scrollamount="100" alt="Image"/>
+<img src="Vodafone.png" width="200" height="200"  scrollamount="100" alt="Image"/>
+<img src="cricket.png" width="200" height="200"   scrollamount="100" alt="Image" />
+<img src="h20.png"  width="200"    height="200"      scrollamount="100"  alt="Image" />
+<img src="airtel.png"  width="200" height="200"   scrollamount="100" alt="Image" />
+
+</marquee>
+
+<div style ="display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;">
+
+<form  method="POST"  action="LOGIN.JSP">
+  <header>Login </header>
+  <label>Username</label>
+  <input type="text" name="username" placeholder ="Enter your username" required />
+ <label>Password</label>
+  <input type ="password" placeholder="Enter your password" required/> <br>
+  <center><button id="p">Login </button></center>
+</form>
+
+
+
+</div>
+
+</body>
+</html>
